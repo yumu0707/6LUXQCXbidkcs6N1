@@ -24,6 +24,10 @@ p, h2, h3 {
   margin: 0;
 }
 
+p {
+  font-size: 1.05rem;
+}
+
 h2 {
   margin-bottom: 0.6rem;
 }
@@ -228,9 +232,11 @@ audio {
   display: flex;
   flex-direction: row;
   background-color: rgba(81, 65, 65, 0.6);
-  padding: 3rem 7rem;
+  padding: 2rem 2rem 3rem 3rem;
+  justify-content: center;
   gap: 3rem;
 }
+  
 
 .footer-text {
   flex: 1;
